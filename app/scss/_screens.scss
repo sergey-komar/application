@@ -76,3 +76,201 @@
     color: #37a497;
     text-align: center;
 }
+
+//16
+.wallet-box__info {
+    margin-bottom: 5px;
+    font-size: 10px;
+    text-align: center;
+}
+.wallet-box__texx--green {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #37a497;
+    text-align: center;
+}
+.names__wrapper {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    gap: 5px;
+}
+.names__item-info {
+    font-size: 14px;
+}
+
+
+//16.1
+.wallet-box--blur .form-box__title,
+.wallet-box--blur .wallet-box__info,
+.wallet-box--blur .wallet-box__texx--green,
+.wallet-box--blur .names__item{
+    filter: blur(10px);
+}
+.footer__text{
+    margin-bottom: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+.footer__text-remove{
+    margin-bottom: 50px;
+    font-size: 12px;
+    color: #d66f6f;
+    text-align: center;
+}
+.wallet__btn.wallet__btn-remove{
+    color: #d66f6f;
+}
+
+
+//6.1
+.wallet-box--referal .wallet-box__subtile{
+    margin-bottom: 20px;
+}
+.referal__number{
+    margin-bottom: 40px;
+    font-size: 52px;
+    text-align: center;
+    font-weight: 300;
+    color: #37a497;
+}
+.wallet-form-input--referal{
+    font-size: 12px;
+}
+.referal-box{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.referal-box__item {
+    padding: 16px;
+    width: 50%;
+    background: #e0e3eb;
+}
+.referal-box__item-title {
+    margin-bottom: 5px;
+    font-size: 10px;
+}
+.referal-box__item-number {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.dark .referal-box__item-title,
+.dark .referal-box__item-number{
+    color: #353535;
+}
+
+
+//6.2
+.wallet-box__link{
+    display: block;
+    font-size: 10px;
+    text-align: center;
+    color: #37a497;
+}
+.wallet__inner-text{
+    color: #fff;
+}
+
+//6.3
+.wallet__item.wallet__item--hash{
+    padding: 0px 16px 0px 24px;
+    background: rgba(224, 227, 235, 0.5);
+    opacity: .5;
+}
+.wallet__item.wallet__item--hash .wallet__item-title,
+.wallet__item.wallet__item--hash .wallet__inner-text{
+    color: #353535;
+}
+.hash-box{
+    margin-bottom: 20px;
+    padding: 16px;
+    height: 150px;
+    background: #e0e3eb;
+}
+.hash-box__title {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+.hash-box__item {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hash-box__item-text--icon{
+    position: relative;
+    margin-left: 25px;
+}
+.hash-box__item-text--icon::before{
+    position: absolute;
+    content: '';
+    width: 25px;
+    height: 25px;
+    top: -4px;
+    left: -25px;
+    background: url('../images/Lock.svg') no-repeat;
+}
+.hash-box__item-text {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #37a497;
+}
+.hash-box__item-number {
+    width: 107px;
+    margin-left: auto;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.dark .hash-box{
+    background: transparent;
+}
+
+
+
+//6.1.1
+.referal-table__inner {
+}
+.referal-table__name,
+.referal-table__item {
+    padding: 16px 4px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    background: #e0e3eb;
+}
+.referal-table__name-title,
+.referal-table__item-text  {
+    width: 25%;
+    text-align: center;
+    font-size: 10px;
+}
+.referal-table__name-title,
+.referal-table__item-text--green{
+    color: #37a497;
+}
+.referal-table__item-text--red{
+    color: #d66f6f;
+}
+.dark .referal-table__item-text{
+    color: #353535;
+}
+.dark .referal-table__item-text--red{
+    color: #d66f6f;
+}
+.dark .referal-table__item-text--green,
+.dark .referal-table__name-title{
+    color: #37a497;
+}
+
+.referal-table__item {
+}
+.referal-table__item-text {
+}
+
+
+
+
+
