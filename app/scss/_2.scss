@@ -98,7 +98,7 @@
 
 //policy
 .policy__text{
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 //1
@@ -151,16 +151,6 @@
 
 
 //7.1
-.form-box {
-}
-.container {
-}
-.title {
-}
-.form-box__title {
-}
-.video {
-}
 .video__text {
     margin-bottom: 15px;
     font-size: 14px;
@@ -170,9 +160,9 @@
 }
 .video-box {
     position: relative;
+    margin-bottom: 20px;
 }
-.video-box__img {
-}
+
 .video-box__btn {
     position: absolute;
     top: 50%;
