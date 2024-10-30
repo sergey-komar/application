@@ -1,5 +1,9 @@
 $(function () {
-
+    $('.inactive-item__top-input').change(function(){
+		if (+$(this).attr('max') < $(this).val()) {
+			$(this).val($(this).attr('max'));
+		}
+	});
 })
 
 window.addEventListener('DOMContentLoaded', () => {
