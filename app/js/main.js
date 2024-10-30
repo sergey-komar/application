@@ -55,12 +55,22 @@ window.addEventListener('DOMContentLoaded', () => {
         logoWhite.classList.toggle('show');
     }
    
-
+//Высота на мобилках 
     let vh = window.innerHeight * 0.01;
-// Then we set the value in the --vh custom property to the root of the document
-document.documentElement.style.setProperty('--vh', `${vh}px`);
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
 
-})
+//прелоадер
+    let mask = document.querySelector('.mask')
+    window.addEventListener('load', () => {
+        mask.classList.add('mask-hide');
+        setTimeout(() => {
+        mask.remove();
+        }, 600);
+    });
+
+
+
+});
    
    
 

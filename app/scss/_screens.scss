@@ -66,6 +66,7 @@
 
 //15
 .wallet-block{
+    margin-top: 25px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -172,6 +173,7 @@
 }
 .wallet__inner-text{
     color: #fff;
+    font-size: 10px;
 }
 .dark .wallet__item.wallet__item--hash .wallet__item-title, 
 .dark .wallet__item.wallet__item--hash .wallet__inner-text{
