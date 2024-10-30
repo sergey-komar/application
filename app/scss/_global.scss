@@ -1,6 +1,5 @@
 html,
 body {
-	height: 100%;/*sticky footer*/
 	display: flex;/*sticky footer*/
 	flex-direction: column;/*sticky footer*/
 	margin: 0;
@@ -76,4 +75,16 @@ button{
  }
  .dark .names__item:last-child{
 	background: rgba(224, 227, 235, .5);
+ }
+ .module{
+	width: 100%;
+	height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
+	height: calc(var(--vh, 1vh) * 100);
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+ }
+ .dark .module,
+ .dark .footer{
+	background: #1e2025;
  }
